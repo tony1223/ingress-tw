@@ -1,0 +1,13 @@
+
+.jf-notload{
+	display:none;
+}
+
+.jf-active body{
+	display:block;
+}
+
+p{
+	font-size:16px;
+	line-height:24px;
+}

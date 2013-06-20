@@ -3,8 +3,8 @@
 
 <style>
 	.invite-guide p{
-		font-size:24px;
-		line-height:36px;
+		font-size:18px;
+		line-height:24px;
 	}
 	.invite-guide p{
 		margin-top:10px;
@@ -32,7 +32,7 @@
 		<ol>
 			<li>
 			 	<p>請至 <a target="_blank" href="http://www.ingress.com/">官方網站</a> 點擊 Request An Invite
-			 	（目前約 1-5 分鐘至一天內會收到，時間視 Google 當時處理不定。）</p>
+			 	</p>
 				<p> <img src="<?=base_url("img/step1.png")?>" /></p>
 			</li>
 			<li>
