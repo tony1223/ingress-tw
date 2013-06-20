@@ -17,6 +17,8 @@
           <li class="">
             <a href="<?=site_url("/Invite")?>">如何取得邀請碼</a>
           </li>
+
+          <!--
           <li class="">
             <a href="<?=site_url("/GettingStart")?>">新手教學</a>
           </li>
@@ -32,6 +34,7 @@
           <li class="">
             <a href="<?=site_url("/Links")?>">相關連結</a>
           </li>
+           -->
           <li class="">
             <a href="<?=site_url("/About")?>"> 關於我們</a>
           </li>
