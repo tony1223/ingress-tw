@@ -11,7 +11,7 @@
   <div class="row">
     <div class="span12 ">
 		<div class="page-header">
-		  <h1>戰情概要詳情  <small>透過近期地圖戰況瞭解台灣戰局與 Inress 火熱程度</small></h1>
+		  <h1>戰情概要詳情  <small>透過近期地圖戰況瞭解台灣戰局與 Ingress 火熱程度</small></h1>
 		</div>
 		<div class="alert alert-warning">本功能尚屬實驗版，由於伺服器資料蒐集的極限，有些資料可能仍有些不完整，請大家閱讀時僅供參考。</div>
 

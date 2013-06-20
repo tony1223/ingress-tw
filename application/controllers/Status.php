@@ -16,10 +16,10 @@ class Status extends MY_Controller {
 		$kmls = Array(
 			1=>
 				Array("kml" => "kml_20130620_0149.kmz",
-					"Title" => "2013/06/20 01:49   已佔領 portal 一覽"),
+					"Title" => "2013/06/20 01:49  雙方 已佔領 portal 一覽"),
 			2 => Array(
 				"kml" => "kml_20130621_0038.kmz",
-					"Title" => "2013/06/21 00:38   已佔領 portal 一覽"
+					"Title" => "2013/06/21 00:38   雙方已佔領 portal 一覽"
 			));
 
 		if(empty($kmls[$index])){
