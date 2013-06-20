@@ -2,7 +2,7 @@
 
 class Site extends MY_Controller {
 
-	public function Invite()
+	public function invite()
 	{
 		$this->_layout("layout",'invite',
 		Array(
@@ -11,7 +11,7 @@ class Site extends MY_Controller {
 				)
 				);
 	}
-	public function GettingStart()
+	public function gettingstart()
 	{
 		$this->_layout("layout",'under_construction',
 		Array(
@@ -21,7 +21,7 @@ class Site extends MY_Controller {
 				);
 	}
 
-	public function Links()
+	public function links()
 	{
 		$this->_layout("layout",'under_construction',
 		Array(
@@ -31,7 +31,7 @@ class Site extends MY_Controller {
 				);
 	}
 
-	public function About(){
+	public function about(){
 		$this->_layout("layout",'about',
 		Array(
 				"pageTitle" => "Ingress TW Info",
@@ -40,7 +40,7 @@ class Site extends MY_Controller {
 		);
 	}
 
-	public function Story(){
+	public function story(){
 		$this->_layout("layout",'under_construction',
 		Array(
 				"pageTitle" => "Ingress TW Info",

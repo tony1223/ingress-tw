@@ -40,12 +40,12 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-$route["Invite"] = "Site/Invite";
-$route["GettingStart"] = "Site/GettingStart";
-$route["Links"] = "Site/Links";
-$route["About"] = "Site/About";
-$route["Story"] = "Site/Story";
-$route["History"] = "Site/History";
+$route["invite"] = "Site/Invite";
+$route["gettingstart"] = "Site/GettingStart";
+$route["links"] = "Site/Links";
+$route["about"] = "Site/About";
+$route["story"] = "Site/Story";
+$route["history"] = "Site/History";
 
 
 
