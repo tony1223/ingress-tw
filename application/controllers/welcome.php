@@ -18,7 +18,7 @@ class Welcome extends MY_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message',
+		$this->_layout("layout",'welcome_message',
 			Array(
 				"pageTitle" => "Ingress TW Info",
 				"selector" => "home"

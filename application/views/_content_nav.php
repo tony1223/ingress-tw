@@ -1,3 +1,4 @@
+<?php if(empty($selector)) { $selector = "";}?>
 <div class="navbar navbar-inverse">
   <div class="navbar-inner">
     <div class="container">
@@ -11,31 +12,33 @@
       </a>
       <div class="nav-collapse collapse">
         <ul class="nav">
-          <li class="">
+          <li class="<?=$selector=="home" ? "active":""?>">
             <a href="<?=site_url("/")?>">首頁</a>
           </li>
-          <li class="">
+          <li class="<?=$selector=="invite" ? "active":""?>">
             <a href="<?=site_url("/Invite")?>">如何取得邀請碼</a>
           </li>
 
-          <!--
-          <li class="">
+	<?php if(0){?>
+	      <li class="<?=$selector=="gettingstart" ? "active":""?>">
             <a href="<?=site_url("/GettingStart")?>">新手教學</a>
           </li>
-          <li class="">
+          <li class="<?=$selector=="story" ? "active":""?>">
             <a href="<?=site_url("/Story")?>">故事劇情</a>
           </li>
-          <li class="">
-            <a href="<?=site_url("/History")?>">台灣大事紀</a>
-          </li>
-          <li class="">
+     <?php } ?>
+          <li class="<?=$selector=="status" ? "active":""?>">
             <a href="<?=site_url("/Status")?>">戰情概要</a>
           </li>
-          <li class="">
+          <li class="<?=$selector=="history" ? "active":""?>">
+            <a href="<?=site_url("/History")?>">台灣大事紀</a>
+          </li>
+     <?php if(0){?>
+          <li  class="<?=$selector=="links" ? "active":""?>">
             <a href="<?=site_url("/Links")?>">相關連結</a>
           </li>
-           -->
-          <li class="">
+     <?php }?>
+          <li  class="<?=$selector=="about" ? "active":""?>">
             <a href="<?=site_url("/About")?>"> 關於我們</a>
           </li>
         </ul>

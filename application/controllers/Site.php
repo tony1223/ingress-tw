@@ -4,66 +4,58 @@ class Site extends MY_Controller {
 
 	public function Invite()
 	{
-		$this->load->view('invite',
+		$this->_layout("layout",'invite',
 		Array(
 				"pageTitle" => "Ingress TW Info",
-				"selector" => "home"
+				"selector" => "invite"
 				)
 				);
 	}
 	public function GettingStart()
 	{
-		$this->load->view('under_construction',
+		$this->_layout("layout",'under_construction',
 		Array(
 				"pageTitle" => "Ingress TW Info",
-				"selector" => "home"
+				"selector" => "gettingstart"
 				)
 				);
 	}
-	public function Status()
-	{
-		$this->load->view('under_construction',
-		Array(
-				"pageTitle" => "Ingress TW Info",
-				"selector" => "home"
-				)
-				);
-	}
+
 	public function Links()
 	{
-		$this->load->view('under_construction',
+		$this->_layout("layout",'under_construction',
 		Array(
 				"pageTitle" => "Ingress TW Info",
-				"selector" => "home"
+				"selector" => "links"
 				)
 				);
 	}
 
 	public function About(){
-		$this->load->view('about',
+		$this->_layout("layout",'about',
 		Array(
 				"pageTitle" => "Ingress TW Info",
-				"selector" => "home"
+				"selector" => "about"
 				)
-				);
+		);
 	}
 
 	public function Story(){
-		$this->load->view('under_construction',
+		$this->_layout("layout",'under_construction',
 		Array(
 				"pageTitle" => "Ingress TW Info",
-				"selector" => "home"
+				"selector" => "story"
 				)
 				);
 	}
 
 	public function History(){
-		$this->load->view('under_construction',
+		$this->_layout("layout",'history',
 		Array(
 				"pageTitle" => "Ingress TW Info",
-				"selector" => "home"
+				"selector" => "history"
 				)
-				);
+		);
 	}
 }
 

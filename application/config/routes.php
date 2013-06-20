@@ -42,7 +42,6 @@ $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route["Invite"] = "Site/Invite";
 $route["GettingStart"] = "Site/GettingStart";
-$route["Status"] = "Site/Status";
 $route["Links"] = "Site/Links";
 $route["About"] = "Site/About";
 $route["Story"] = "Site/Story";
