@@ -36,7 +36,7 @@
 				<p> <img src="<?=base_url("img/step1.png")?>" /></p>
 			</li>
 			<li>
-			 	<p>登入您的 gmail 帳號（Ingress 將透過您選擇的 gmail 帳號作為遊戲進行帳號）</p>
+			 	<p>登入您的 gmail 帳號</p>
 			 	<p> <img src="<?=base_url("img/step2.png")?>" /></p>
 			</li>
 			<li>
