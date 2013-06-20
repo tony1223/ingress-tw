@@ -6,7 +6,7 @@
 		<div class="page-header">
 		  <h1>戰情概要  <small>透過近期地圖戰況瞭解台灣戰局與 Ingress 火熱程度</small></h1>
 		</div>
-		<div class="alert alert-warning">由於伺服器資料蒐集的極限，有些資料可能仍有些不完整，請大家閱讀時僅供參考。</div>
+		<div class="alert alert-warning">由於伺服器資料蒐集的極限，有些資料可能仍有些不完整，請大家閱讀時僅供參考，我們會再盡力調整擷取方式。</div>
 
 		<h1>近期戰情報導(每日更新)</h1>
 		<table class="table table-bordered">
@@ -16,16 +16,17 @@
 			</tr>
 			<tr>
 				<td>2013/06/21 00:38 </td>
-				<td> <a href="<?=site_url("status/view/2")?>">雙方已佔領 portal 一覽</a>  (不含空點、部份 portal 缺漏)
+				<td> <a href="<?=site_url("status/view/2")?>">雙方已佔領 portal 一覽</a> (註：這一版屬實驗版，仍有許多 portal 缺漏)
 					<hr />
-					取得 Portal 總數: 9615，綠軍 5983 個 (62%) ，藍軍 3632 個 (37.77%)。 (註：估計約有 5 ~ 10%  誤差。)
+					取得 Portal 總數: 8406，綠軍 4934 個 (58.7%) ，藍軍 3472 個 (41.3%)。 (註：估計約有  5 ~ 10%  誤差。)
 				</td>
 			</tr>
 			<tr>
 				<td>2013/06/20 01:49 </td>
 				<td>
 					<a href="<?=site_url("status/view/1")?>">雙方已佔領 portal 一覽 </a> (註：這一版屬實驗版，尚無連線、field 資訊且許多 portal 缺漏)
-					取得 Portal 總數: 9615，綠軍 5983 個 (62%) ，藍軍 3632 個 (37.77%)。 (註：估計約有 5 ~ 10%  誤差。)
+					<hr />
+					取得 Portal 總數: 9615，綠軍 5983 個 (62.23%) ，藍軍 3632 個 (37.77%)。 (註：估計約有 5 ~ 10%  誤差。)
 				</td>
 			</tr>
 		</table>
