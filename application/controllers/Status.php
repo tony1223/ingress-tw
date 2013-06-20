@@ -2,7 +2,7 @@
 
 class Status extends MY_Controller {
 
-	public function Index()
+	public function ㄛndex()
 	{
 		$this->_layout("layout",'status/index',
 			Array(
