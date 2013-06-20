@@ -16,11 +16,11 @@
 			</tr>
 			<tr>
 				<td>2013/06/21 00:38 </td>
-				<td> 已佔領 portal 一覽 <?=site_url("status/view/2")?> (不含空點、部份 portal 缺漏)</td>
+				<td> <a href="<?=site_url("status/view/2")?>">已佔領 portal 一覽</a>  (不含空點、部份 portal 缺漏)</td>
 			</tr>
 			<tr>
 				<td>2013/06/20 01:49 </td>
-				<td> 已佔領 portal 一覽 <?=site_url("status/view/1")?> (註：這一版屬實驗版，尚無連線、field 資訊且許多 portal 缺漏)</td>
+				<td> <a href="<?=site_url("status/view/1")?>">已佔領 portal 一覽 </a> (註：這一版屬實驗版，尚無連線、field 資訊且許多 portal 缺漏)</td>
 			</tr>
 		</table>
 

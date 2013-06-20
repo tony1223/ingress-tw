@@ -1,7 +1,7 @@
 
 	<div class="footer">
-      <div class="container">
-    	  <hr />
+      <div class="container" style="padding-bottom:20px;">
+    	 <hr />
          <p> Power by TonyQ &amp; Puppy Chen , sponsored by Ingress Taiwan Resistance Group.  </p>
       </div>
     </div>
