@@ -49,7 +49,7 @@ class Site extends MY_Controller {
 				);
 	}
 
-	public function History(){
+	public function history(){
 		$this->_layout("layout",'history',
 		Array(
 				"pageTitle" => "Ingress TW Info",
