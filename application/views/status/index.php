@@ -16,11 +16,17 @@
 			</tr>
 			<tr>
 				<td>2013/06/21 00:38 </td>
-				<td> <a href="<?=site_url("status/view/2")?>">雙方已佔領 portal 一覽</a>  (不含空點、部份 portal 缺漏)</td>
+				<td> <a href="<?=site_url("status/view/2")?>">雙方已佔領 portal 一覽</a>  (不含空點、部份 portal 缺漏)
+					<hr />
+					取得 Portal 總數: 9615，綠軍 5983 個 (62%) ，藍軍 3632 個 (37.77%)。 (註：估計約有 5 ~ 10%  誤差。)
+				</td>
 			</tr>
 			<tr>
 				<td>2013/06/20 01:49 </td>
-				<td> <a href="<?=site_url("status/view/1")?>">雙方已佔領 portal 一覽 </a> (註：這一版屬實驗版，尚無連線、field 資訊且許多 portal 缺漏)</td>
+				<td>
+					<a href="<?=site_url("status/view/1")?>">雙方已佔領 portal 一覽 </a> (註：這一版屬實驗版，尚無連線、field 資訊且許多 portal 缺漏)
+					取得 Portal 總數: 9615，綠軍 5983 個 (62%) ，藍軍 3632 個 (37.77%)。 (註：估計約有 5 ~ 10%  誤差。)
+				</td>
 			</tr>
 		</table>
 

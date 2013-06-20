@@ -35,6 +35,18 @@
 
 				</td>
 			</tr>
+			<tr>
+				<td>2013/2/7</td>
+				<td>
+					<p><a href="https://plus.google.com/116063281552828176001/posts/YmBp1wFwqJ5" target="_blank">台灣首位玩家達成 L8 (綠軍)</a></p>
+				</td>
+			</tr>
+			<tr>
+				<td> 2012/11/16 </td>
+				<td>
+					<p> Ingress 啟動日～</p>
+				</td>
+			</tr>
 		</table>
     </div>
   </div>
