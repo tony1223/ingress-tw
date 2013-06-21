@@ -133,9 +133,11 @@ body {
 	width:720px;
 	position:absolute;
 	margin-left:-16px;
-	top:10px;
 	opacity:0.5;
 	font-weight:bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 20px;
 }
 
 

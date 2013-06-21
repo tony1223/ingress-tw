@@ -7,7 +7,7 @@ class Status extends MY_Controller {
 		$infos = array_reverse($this->KMLModel->find_all()); //just in case for array_reverse
 		$this->_layout("layout",'status/index',
 			Array(
-				"pageTitle" => "Ingress TW Info",
+				"pageTitle" => "戰情概要 - Ingress.tw",
 				"selector" => "status",
 				"infos" => $infos
 			)
@@ -22,7 +22,7 @@ class Status extends MY_Controller {
 
 		$this->_layout("layout",'status/view',
 			Array(
-				"pageTitle" => "戰情概要 ".$info->Time,
+				"pageTitle" => "戰情概要 ".$info->Time ." - Ingress.tw",
 				"selector" => "status",
 				"info" => $info
 			)
@@ -36,7 +36,7 @@ class Status extends MY_Controller {
 		}
 		$this->load->view('status/fullview',
 			Array(
-				"pageTitle" => "戰情概要 ".$info->Time,
+				"pageTitle" => "戰情概要 ".$info->Time." - Ingress.tw",
 				"selector" => "status",
 				"info" => $info
 			)

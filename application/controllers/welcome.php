@@ -20,7 +20,7 @@ class Welcome extends MY_Controller {
 	{
 		$this->_layout("layout",'welcome_message',
 			Array(
-				"pageTitle" => "Ingress TW Info",
+				"pageTitle" => "Ingress.tw - 台灣 Ingress 教學與資料收集中心",
 				"selector" => "home"
 			)
 		);
