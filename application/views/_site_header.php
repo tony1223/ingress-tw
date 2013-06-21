@@ -13,5 +13,9 @@
     <link REL="SHORTCUT ICON" HREF="<?=base_url("favicon.ico")?>">
     <link rel="stylesheet" href="<?=base_url("/css/bootstrap-responsive.min.css")?>">
     <link rel="stylesheet" href="<?=base_url("/css/site.css")?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php if(function_exists("css_section")){
+    	css_section();
+     }?>
 </head>
 <body class="jf-notload">

@@ -1,13 +1,40 @@
+.jf-loafing *{ //載入中不顯示
+	opacity: 0;
+	visibility: hidden;
+}
+.jf-inactive *{//處理失敗直接顯示
+	opacity: 1;
+	visibility: visible;
+}
 
-.jf-notload{
-	display:none;
+body{
+
 }
 
 .jf-active body{
 	display:block;
 }
 
-p{
+* {
 	font-size:16px;
 	line-height:24px;
 }
+
+.page-index .brand{
+	margin-top:-20px;
+	padding-top:80px;
+	padding-bottom:2%;
+	width:100%;
+	height:580px;
+	background:url('../img/index_bland.jpg');
+	background-position:-30% 0;
+}
+
+.page-index .brand .intro-video{
+	margin: 0 auto;display: block;
+}
+
+.page-index .container{
+	margin-top:-140px;
+}
+
