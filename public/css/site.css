@@ -1,4 +1,4 @@
-.jf-loafing *{ //載入中不顯示
+.jf-loading *{ //載入中不顯示
 	opacity: 0;
 	visibility: hidden;
 }
@@ -9,10 +9,6 @@
 
 body{
 
-}
-
-.jf-active body{
-	display:block;
 }
 
 * {
@@ -32,9 +28,17 @@ body{
 
 .page-index .brand .intro-video{
 	margin: 0 auto;display: block;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.page-index .page-header p{
+	color:gray;
 }
 
 .page-index .container{
 	margin-top:-140px;
 }
+
 

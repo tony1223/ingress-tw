@@ -1,6 +1,6 @@
 <div class="page-index">
 	<div class="brand">
-		<iframe class="intro-video" width="800" height="450" src="http://www.youtube.com/embed/zV6cpAs_uj8?rel=0&HD=1;rel=0;showinfo=0;controls=0" frameborder="0" allowfullscreen></iframe>
+		<iframe class="intro-video" width="800" height="450" src="http://www.youtube.com/embed/zV6cpAs_uj8?rel=0;showinfo=0;controls=0" frameborder="0" allowfullscreen></iframe>
 	</div>
 
 	<div class="container ">
@@ -12,6 +12,8 @@
 
 	  <div class="row">
 	    <div class="span12 ">
+	    	<h1> 什麼是 Ingress </h1>
+	    	<p> 由  Google 的 NianticLabs 開發的一款結合現實與生活的 Android App 免費遊戲，你可以<a href="https://play.google.com/store/apps/details?id=com.nianticproject.ingress" target="_blank">在 Google Play 上 找到本遊戲。</a></p>
 			<h1> 如何取得邀請碼加入遊戲 </h1>
 			<p>若您需要邀請碼，請至 <a target="_blank" href="http://www.ingress.com/">官方網站</a> 透過 Request An Invit 並輸入您的 email 帳號取得邀請碼，<a href="<?=site_url("/invite")?>">更多有關如何取得邀請碼的說明</a>。</p>
 			<p> <a href="<?=site_url("/invite")?>"><img src="<?=base_url("img/step1.png")?>" /></a></p>
