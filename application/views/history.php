@@ -25,6 +25,7 @@
 				<td>2013/6/18</td>
 				<td>
 					<p><a href="https://plus.google.com/117150961620179979834/posts/SRnN9pc7rXM" target="_blank">*  綠軍發起綠軍 Lv6 以上送貼紙一張活動</a></p>
+					<div title="資料提供者"><span class="label label-info">TonyQ</span></div>
 				</td>
 			</tr>
 			<tr>
@@ -41,6 +42,7 @@
 					    <a class="thumbnail" href="https://docs.google.com/document/d/1d76jJSkGCyynJRvez99LhOz5Hn2CAC0BifJzs5rOUhs" target="_blank"><img class="span6" src="<?=base_url("img/news/107181526115889435268_2.png")?>"  alt="上海藍軍和桃園藍軍跨海行動成功_雙 CF"/></a>
 					  </li>
 					</ul>
+					<div title="資料提供者"><span class="label label-info">puppy chen</span></div>
 				</td>
 			</tr>
 			<tr>
@@ -54,13 +56,14 @@
 					    <a class="thumbnail"  href="https://plus.google.com/104681984663054250338/posts/Ke4H6bFV7tC" target="_blank"><img class="span6" src="<?=base_url("img/news/104681984663054250338.png")?>" alt="台灣(高雄)、香港、廈門 兩岸三地大三角  22548282 mu" /></a>
 					  </li>
 					</ul>
-
+					<div  title="資料提供者"><span class="label label-info">puppy chen</span> <span class="label label-info">Frey</span></div>
 				</td>
 			</tr>
 			<tr>
 				<td>2013/5/1</td>
 				<td>
 					<p><a href="https://plus.google.com/107181526115889435268/posts/XQR9JcQcSAq" target="_blank">* 台灣與中國首次建立 CF (綠軍)</a></p>
+					<div title="資料提供者"><span class="label label-info">Frey</span></div>
 				</td>
 			</tr>
 			<tr>
@@ -75,7 +78,7 @@
 					    	<a class="thumbnail"  href="https://plus.google.com/u/0/117005225874747885301/posts/ibYiXw2tdhk" target="_blank"><img class="span6" src="<?=base_url("img/news/117005225874747885301.png")?>" alt="台中到高雄建立大三角 (藍軍) 圖1" /></a>
 					  </li>
 					</ul>
-
+					<div title="資料提供者"><span class="label label-info">puppy chen</span></div>
 				</td>
 			</tr>
 			<tr>
@@ -87,13 +90,14 @@
 				  		<a class="thumbnail"  href="https://plus.google.com/u/0/110467487414004156514/posts/Y1885cbQ4yB" target="_blank"><img alt="台灣首座八塔 (台北 101)" class="span6" src="<?=base_url("img/news/110467487414004156514.jpg")?>" /></a>
 					  </li>
 					</ul>
-
+					<div title="資料提供者"><span class="label label-info">Frey</span></div>
 				</td>
 			</tr>
 			<tr>
 				<td>2013/2/7</td>
 				<td>
 					<p><a href="https://plus.google.com/116063281552828176001/posts/YmBp1wFwqJ5" target="_blank">* 台灣首位玩家達成 L8 (綠軍)</a></p>
+					<div title="資料提供者"><span class="label label-info">TonyQ</span></div>
 				</td>
 			</tr>
 			<tr>
