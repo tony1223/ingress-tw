@@ -22,7 +22,21 @@ class Status extends MY_Controller {
 
 		$this->_layout("layout",'status/view',
 			Array(
-				"pageTitle" => "戰情概要",
+				"pageTitle" => "戰情概要 ".$info->Time,
+				"selector" => "status",
+				"info" => $info
+			)
+		);
+	}
+
+	public function fullview($index){
+		$info = $this->KMLModel->find_by_id($index);
+		if(empty($info)){
+			return show_404();
+		}
+		$this->load->view('status/fullview',
+			Array(
+				"pageTitle" => "戰情概要 ".$info->Time,
 				"selector" => "status",
 				"info" => $info
 			)

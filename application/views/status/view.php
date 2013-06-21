@@ -17,6 +17,8 @@
 
 		<h1><?=htmlspecialchars($info->Time. " " .$info->Title)?></h1>
 		<p><?=nl2br(htmlspecialchars($info->Content))?></p>
+
+		<a class="btn" href="<?=site_url("status/fullview/".$info->KMLID)?>">全頁地圖模式瀏覽</a>
 		<div id="map-canvas" class="span12" style="height:500px" data-resource="<?=base_url("resources/status/".$info->Kml)?>"></div>
 
 		<p>此處所有資料來自於 ingress/intel 並由 TonyQ 後製而成，資料所有權屬官方所有，統計結果若有需要另行引用請採用 CC-BY 授權（註明作者與來源網站即可。）。</p>
