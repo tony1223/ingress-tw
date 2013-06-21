@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="brand" href="<?=site_url("/")?>">
-      	<img width="25" src="<?=base_url("img/Ingress-flat-circle-256.png")?>" alt="Ingree Logo" style="margin-right:20px;" />Ingress TW Info
+      	<img class="logo" src="<?=base_url("img/Ingress-flat-circle-256.png")?>" alt="Ingree Logo" style="margin-right:20px;" />Ingress TW
       </a>
       <div class="nav-collapse collapse">
         <ul class="nav">

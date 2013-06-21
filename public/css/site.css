@@ -1,44 +1,174 @@
-.jf-loading *{ //載入中不顯示
-	opacity: 0;
+/* Global css
+------------------------------------------ */
+.jf-loading * { //
+	載入中不顯示 opacity: 0;
 	visibility: hidden;
 }
-.jf-inactive *{//處理失敗直接顯示
-	opacity: 1;
+
+.jf-inactive * { //
+	處理失敗直接顯示 opacity: 1;
 	visibility: visible;
 }
 
-body{
+body {
 
 }
 
 * {
-	font-size:16px;
-	line-height:24px;
+	font-size: 16px;
+	line-height: 24px;
 }
 
-.page-index .brand{
-	margin-top:-20px;
-	padding-top:80px;
-	padding-bottom:2%;
-	width:100%;
-	height:580px;
-	background:url('../img/index_bland.jpg');
-	background-position:-30% 0;
+.thumbnails img{
+	float:none;
 }
 
-.page-index .brand .intro-video{
-	margin: 0 auto;display: block;
+.page-header h1 small{
+	line-height:26px;
+}
+
+/* Layout
+---------------------------------------------------*/
+
+.navbar .nav>li>a{
+	font-family: "wt011";
+}
+
+.navbar .brand .logo{
+	width:25px;
+}
+
+/*Component css
+---------------------------------------------- */
+
+/* ribbon */
+.ribbon {
+	font-size: 16px !important;
+	/* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+	width: 50%;
+	position: relative;
+	background: #317eac;
+	color: #fff;
+	text-align: center;
+	padding: 0em 1em; /* Adjust to suit */
+	margin: 2em auto 3em;
+	/* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+
+.ribbon:before,.ribbon:after {
+	content: "";
+	position: absolute;
+	display: block;
+	bottom: -1em;
+	border: 1.5em solid #2870a5;
+	z-index: -1;
+}
+
+.ribbon:before {
+	left: -2em;
+	border-right-width: 1.5em;
+	border-left-color: transparent;
+}
+
+.ribbon:after {
+	right: -2em;
+	border-left-width: 1.5em;
+	border-right-color: transparent;
+}
+
+.ribbon .ribbon-content:before,.ribbon .ribbon-content:after {
+	content: "";
+	position: absolute;
+	display: block;
+	border-style: solid;
+	border-color: #3070a5 transparent transparent transparent;
+	bottom: -1em;
+}
+
+.ribbon .ribbon-content:before {
+	left: 0;
+	border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+	right: 0;
+	border-width: 1em 1em 0 0;
+}
+
+/* page css
+----------------------------------------------- */
+.page-index .brand {
+	margin-top: -20px;
+	padding-top: 80px;
+	padding-bottom: 2%;
+	width: 100%;
+	height: 580px;
+	background: url('../img/index_bland.jpg');
+	background-position: -30% 0;
+}
+
+.page-index .player{
+	margin: 0 auto;
+	width:720px;
+	height:405px;
+	position:relative;
+}
+
+.page-index .brand .intro-video {
+	display: block;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+	width:720px;
+	height:405px;
 }
 
-.page-index .page-header p{
-	color:gray;
+.page-index .ribbon{
+	background: #317eac;
+	width:720px;
+	position:absolute;
+	margin-left:-16px;
+	top:10px;
+	opacity:0.5;
+	font-weight:bold;
 }
 
-.page-index .container{
-	margin-top:-140px;
+
+.page-index .ribbon-content{
+	font-size:20px;
 }
 
 
+.page-index .page-header p {
+	color: gray;
+}
+
+.page-index .container {
+	margin-top: -140px;
+}
+
+/* page-index RWD */
+@media(max-width : 780px) {
+	.page-index .brand {
+		height: 150px;
+		padding-top:20px;
+	}
+	.page-index .container {
+		margin-top: 0px;
+	}
+
+	.page-index .player{
+		width:240px;
+		height:133px;
+	}
+
+	.page-index .brand .intro-video {
+		width:240px;
+		height:133px;
+	}
+
+	.page-index .ribbon{
+		display:none;
+	}
+/* Styles */
+}

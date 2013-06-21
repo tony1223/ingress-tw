@@ -1,6 +1,14 @@
 <div class="page-index">
 	<div class="brand">
-		<iframe class="intro-video" width="800" height="450" src="http://www.youtube.com/embed/zV6cpAs_uj8?rel=0;showinfo=0;controls=0" frameborder="0" allowfullscreen></iframe>
+		<div class="player">
+			<h1 class="ribbon">
+		   		<strong class="ribbon-content">
+		   			The world around you is not what it seems. 世界非如你所見。
+		   		</strong>
+			</h1>
+			<iframe class="intro-video" src="http://www.youtube.com/embed/zV6cpAs_uj8?wmode=opaque＆rel=0;showinfo=0;controls=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+
 	</div>
 
 	<div class="container ">
@@ -21,3 +29,10 @@
 	  </div>
 	</div>
 </div>
+<?php function js_section(){ ?>
+<script>
+	if($.browser.msie){
+		$(".ribbon").remove();
+	}
+</script>
+<?php }?>

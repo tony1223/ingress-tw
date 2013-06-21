@@ -32,8 +32,15 @@
 				<td>
 					<p><a href="https://plus.google.com/107181526115889435268/posts/EU76pkRmVW8" target="_blank">* 上海藍軍和桃園藍軍跨海行動成功 (雙 CF)</a></p>
 					<p><a href="https://docs.google.com/document/d/1d76jJSkGCyynJRvez99LhOz5Hn2CAC0BifJzs5rOUhs" target="_blank">*  Ingress Shanghai 紀錄</a></p>
-					<a href="https://plus.google.com/107181526115889435268/posts/EU76pkRmVW8" target="_blank"><img class="span6" src="<?=base_url("img/news/107181526115889435268.png")?>" alt="上海藍軍和桃園藍軍跨海行動成功" /></a>
-					<a href="https://docs.google.com/document/d/1d76jJSkGCyynJRvez99LhOz5Hn2CAC0BifJzs5rOUhs" target="_blank"><img class="span6" src="<?=base_url("img/news/107181526115889435268_2.png")?>"  alt="上海藍軍和桃園藍軍跨海行動成功_雙 CF"/></a>
+
+					<ul class="thumbnails">
+					  <li class="span6">
+					    <a class="thumbnail" href="https://plus.google.com/107181526115889435268/posts/EU76pkRmVW8" target="_blank"><img class="span6"  src="<?=base_url("img/news/107181526115889435268.png")?>" alt="上海藍軍和桃園藍軍跨海行動成功" /></a>
+					  </li>
+					  <li class="span6">
+					    <a class="thumbnail" href="https://docs.google.com/document/d/1d76jJSkGCyynJRvez99LhOz5Hn2CAC0BifJzs5rOUhs" target="_blank"><img class="span6" src="<?=base_url("img/news/107181526115889435268_2.png")?>"  alt="上海藍軍和桃園藍軍跨海行動成功_雙 CF"/></a>
+					  </li>
+					</ul>
 				</td>
 			</tr>
 			<tr>
@@ -42,7 +49,12 @@
 					<p><a href="https://plus.google.com/104681984663054250338/posts/Ke4H6bFV7tC" target="_blank">* 台灣(高雄)、香港、廈門 兩岸三地大三角  22548282 mu</a></p>
 					<p><a href="https://plus.google.com/u/0/101445493284987673062/posts/SqbrqvkRVXR" target="_blank">*  Ingress HK Resistance 紀錄</a></p>
 					<p><a href="https://www.youtube.com/watch?v=KOCWd67Rk8E&feature=player_embedded" target="_blank">*  Ingress HK Resistance 紀錄影片 </a></p>
-					<a href="https://plus.google.com/104681984663054250338/posts/Ke4H6bFV7tC" target="_blank"><img class="span6" src="<?=base_url("img/news/104681984663054250338.png")?>" alt="台灣(高雄)、香港、廈門 兩岸三地大三角  22548282 mu" /></a>
+					<ul class="thumbnails">
+					  <li class="span6">
+					    <a class="thumbnail"  href="https://plus.google.com/104681984663054250338/posts/Ke4H6bFV7tC" target="_blank"><img class="span6" src="<?=base_url("img/news/104681984663054250338.png")?>" alt="台灣(高雄)、香港、廈門 兩岸三地大三角  22548282 mu" /></a>
+					  </li>
+					</ul>
+
 				</td>
 			</tr>
 			<tr>
@@ -55,15 +67,27 @@
 				<td>2013/4/8</td>
 				<td>
 					<p><a href="https://plus.google.com/u/0/117005225874747885301/posts/ibYiXw2tdhk" target="_blank">* 台中到高雄建立大三角 (藍軍)</a></p>
-					<a href="https://plus.google.com/u/0/117005225874747885301/posts/ibYiXw2tdhk" target="_blank"><img class="span6" src="<?=base_url("img/news/117005225874747885301_2.png")?>" alt="台中到高雄建立大三角 (藍軍) 圖2" /></a>
-					<a href="https://plus.google.com/u/0/117005225874747885301/posts/ibYiXw2tdhk" target="_blank"><img class="span6" src="<?=base_url("img/news/117005225874747885301.png")?>" alt="台中到高雄建立大三角 (藍軍) 圖1" /></a>
+					<ul class="thumbnails">
+					  <li class="span6">
+					    	<a class="thumbnail" href="https://plus.google.com/u/0/117005225874747885301/posts/ibYiXw2tdhk" target="_blank"><img class="span6" src="<?=base_url("img/news/117005225874747885301_2.png")?>" alt="台中到高雄建立大三角 (藍軍) 圖2" /></a>
+					  </li>
+					  <li class="span6">
+					    	<a class="thumbnail"  href="https://plus.google.com/u/0/117005225874747885301/posts/ibYiXw2tdhk" target="_blank"><img class="span6" src="<?=base_url("img/news/117005225874747885301.png")?>" alt="台中到高雄建立大三角 (藍軍) 圖1" /></a>
+					  </li>
+					</ul>
+
 				</td>
 			</tr>
 			<tr>
 				<td>2013/3/10</td>
 				<td>
 					<p><a href="https://plus.google.com/u/0/110467487414004156514/posts/Y1885cbQ4yB">* 台灣首座八塔 (台北 101, 藍軍)  </a></p>
-					<a href="https://plus.google.com/u/0/110467487414004156514/posts/Y1885cbQ4yB" target="_blank"><img alt="台灣首座八塔 (台北 101)" class="span6" src="<?=base_url("img/news/110467487414004156514.jpg")?>" /></a>
+					<ul class="thumbnails">
+					  <li class="span6">
+				  		<a class="thumbnail"  href="https://plus.google.com/u/0/110467487414004156514/posts/Y1885cbQ4yB" target="_blank"><img alt="台灣首座八塔 (台北 101)" class="span6" src="<?=base_url("img/news/110467487414004156514.jpg")?>" /></a>
+					  </li>
+					</ul>
+
 				</td>
 			</tr>
 			<tr>
