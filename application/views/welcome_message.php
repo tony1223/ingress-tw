@@ -13,7 +13,7 @@
 
 	<div class="container ">
 		<div class="page-header">
-		  <h1> Ingress Taiwan Info <small>台灣 Ingress 熱愛者 為您準備的網站！</small></h1>
+		  <h1> Ingress.tw <small>為台灣 Ingress 愛好者準備的網站！</small></h1>
 		  <p> 我們將分享遊戲的教學，各種遊戲中收集到的新聞，各種有趣的資訊。</p>
 		</div>
 
