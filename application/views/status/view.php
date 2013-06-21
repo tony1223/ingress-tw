@@ -15,9 +15,9 @@
 		</div>
 		<div class="alert alert-warning">本功能尚屬實驗版，由於伺服器資料蒐集的極限，有些資料可能仍有些不完整，請大家閱讀時僅供參考。</div>
 
-		<h1><?=$info["Title"]?></h1>
-		<p><?=$info["Content"]?></p>
-		<div id="map-canvas" class="span12" style="height:500px" data-resource="<?=base_url("resources/status/".$info["kml"])?>"></div>
+		<h1><?=htmlspecialchars($info->Time. " " .$info->Title)?></h1>
+		<p><?=nl2br(htmlspecialchars($info->Content))?></p>
+		<div id="map-canvas" class="span12" style="height:500px" data-resource="<?=base_url("resources/status/".$info->Kml)?>"></div>
 
 		<p>此處所有資料來自於 ingress/intel 並由 TonyQ 後製而成，資料所有權屬官方所有，統計結果若有需要另行引用請採用 CC-BY 授權（註明作者與來源網站即可。）。</p>
    </div>

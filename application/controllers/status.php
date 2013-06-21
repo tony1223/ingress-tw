@@ -4,31 +4,19 @@ class Status extends MY_Controller {
 
 	public function index()
 	{
+		$infos = array_reverse($this->KMLModel->find_all()); //just in case for array_reverse
 		$this->_layout("layout",'status/index',
 			Array(
 				"pageTitle" => "Ingress TW Info",
-				"selector" => "status"
+				"selector" => "status",
+				"infos" => $infos
 			)
 		);
 	}
 
 	public function view($index){
-		$kmls = Array(
-			1=>
-				Array("kml" => "kml_20130620_0149.kmz",
-					"Title" => "2013/06/20 01:49  雙方 已佔領 portal 一覽",
-					"Content" => "取得 Portal 總數: 9615，綠軍 5983 個 (62.23%) ，藍軍 3632 個 (37.77%)。 (註：這一版屬實驗版，仍有許多 portal 缺漏，估計約有 5 ~ 10%  誤差。)"
-				),
-			2 => Array(
-				"kml" => "kml_20130621_0038.kmz",
-				"Title" => "2013/06/21 00:38   雙方已佔領 portal 一覽",
-				"Content" => "取得 Portal 總數: 8406，綠軍 4934 個 (58.7%) ，藍軍 3472 個 (41.3%)。 (註：估計約有  5 ~ 10%  誤差。)<br />
-					連線數：4328 ，綠軍 2548 條 （58.87%) ，藍軍 1780 條 (41.13% )<br />
-					Control Field 數：2137 ，綠軍 1246 個(58.31%)，藍軍 891 個 (41.69%)<br />
-					MU：綠軍 271013 ，藍軍 253412。<br />"
-			));
-
-		if(empty($kmls[$index])){
+		$info = $this->KMLModel->find_by_id($index);
+		if(empty($info)){
 			return show_404();
 		}
 
@@ -36,7 +24,7 @@ class Status extends MY_Controller {
 			Array(
 				"pageTitle" => "戰情概要",
 				"selector" => "status",
-				"info" => $kmls[$index]
+				"info" => $info
 			)
 		);
 	}

@@ -16,6 +16,13 @@ class FormObject{
 }
 
 class  MY_Controller  extends  CI_Controller  {
+
+	/**
+	 *
+	 * @var KMLModel
+	 */
+	var $KMLModel; //KMLModel
+
 	public function __construct(){
 		parent::__construct();
 		$this->_init();
