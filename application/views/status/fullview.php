@@ -12,7 +12,7 @@ body { height: 100%; margin: 0px; padding: 0px }
 </style>
 <div style="margin-top:-10px;height:95%;width:100%;">
 	<a class="btn" href="<?=site_url("status/view/".$info->KMLID)?>">回一般瀏覽模式</a> <?=htmlspecialchars($info->Time)?> <?=htmlspecialchars($info->Title)?>
-	<div id="map-canvas"  data-resource="<?=base_url("resources/status/".$info->Kml)?>"></div>
+	<div id="map-canvas" class="gmap" data-resource="<?=base_url("resources/status/".$info->Kml)?>"></div>
 	<p>此處所有資料來自於 ingress/intel 並由 TonyQ 後製而成，資料所有權屬官方所有，統計結果若有需要另行引用請採用 CC-BY 授權（註明作者與來源網站即可。）。</p>
 </div>
 

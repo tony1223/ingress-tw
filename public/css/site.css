@@ -27,6 +27,11 @@ body {
 	line-height:26px;
 }
 
+/* fix bootstrap conflict with google map*/
+.gmap img {
+    max-width: none;
+}
+
 /* Layout
 ---------------------------------------------------*/
 
