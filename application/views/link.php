@@ -2,21 +2,25 @@
   <div class="row">
     <div class="span12  invite-guide">
     	<div class="page-header">
-		  <h1> 相關連結 <small>Ingress 相關連結</small></h1>
+		  <h1> 相關連結 <small>Ingress 實用連結整理</small></h1>
 		</div>
 
-		<h1>官方頁面</h1>
+		<h2>官方頁面</h2>
 
-		<a href="https://plus.google.com/+Ingress">Ingress Google Plus</a>
-		<a href="http://cr0ybot.github.io/ingress-logos/">Ingress Logos</a>
+		<ul>
+			<li><a href="http://www.ingress.com/">Ingress Official Website</a></li>
+			<li><a href="https://plus.google.com/+Ingress">Ingress Google Plus</a></li>
+		</ul>
 
+		<h2>其他網站</h2>
 
-		<h1>其他網站</h1>
-
-		<a href="https://plus.google.com/communities/105093873281779892074">Ingress Taiwan Google Plus 台灣綠軍討論區</a>
-		<a href="https://plus.google.com/communities/110019129465742753783">Ingress Taiwan Resistance Google Plus 台灣藍軍討論區</a>
-		<a href="http://decodeingress.me/">Decode Ingress </a>
-		<a href="https://plus.google.com/communities/114606795989653285746">Decode Ingress Google Plus</a>
+		<ul>
+			<li><a href="http://cr0ybot.github.io/ingress-logos/">Ingress Logos</a></li>
+			<li><a href="https://plus.google.com/communities/105093873281779892074">Ingress Taiwan Google Plus 台灣綠軍討論區</a></li>
+			<li><a href="https://plus.google.com/communities/110019129465742753783">Ingress Taiwan Resistance Google Plus 台灣藍軍討論區</a></li>
+			<li><a href="http://decodeingress.me/">Decode Ingress </a></li>
+			<li><a href="https://plus.google.com/communities/114606795989653285746">Decode Ingress Google Plus</a></li>
+		</ul>
 
 
     </div>

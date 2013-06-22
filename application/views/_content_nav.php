@@ -33,11 +33,9 @@
           <li class="<?=$selector=="history" ? "active":""?>">
             <a href="<?=site_url("/history")?>">台灣大事紀</a>
           </li>
-     <?php if(0){?>
           <li  class="<?=$selector=="links" ? "active":""?>">
             <a href="<?=site_url("/links")?>">相關連結</a>
           </li>
-     <?php }?>
           <li  class="<?=$selector=="about" ? "active":""?>">
             <a href="<?=site_url("/about")?>"> 關於我們</a>
           </li>

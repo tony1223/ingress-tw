@@ -23,12 +23,12 @@ class Site extends MY_Controller {
 
 	public function links()
 	{
-		$this->_layout("layout",'under_construction',
+		$this->_layout("layout",'link',
 		Array(
 				"pageTitle" => "相關連結 - Ingress.tw",
 				"selector" => "links"
 				)
-				);
+		);
 	}
 
 	public function about(){
