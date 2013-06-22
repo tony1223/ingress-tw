@@ -40,15 +40,6 @@ class Site extends MY_Controller {
 		);
 	}
 
-	public function story(){
-		$this->_layout("layout",'under_construction',
-		Array(
-				"pageTitle" => "劇情介紹 - Ingress.tw",
-				"selector" => "story"
-				)
-				);
-	}
-
 	public function history(){
 		$this->_layout("layout",'history',
 		Array(

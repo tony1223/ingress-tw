@@ -10,7 +10,7 @@
 		<p>
 			Ingress 從 Google 在 2012/11/16 日發行以來，飛快的成長與吸引了許多 android 的玩家加入，
 			在此同時也產生了許多的知識與資訊，但有鑑於在陣營與陣營之間的競爭，所以使得資訊的流通非常的困難。
-			雖然有 <a href="https://plus.google.com/102219019745507158854/"  target="_blank">台灣 Ingress 綠軍 G+ 討論區 </a>
+			雖然有 <a href="https://plus.google.com/communities/105093873281779892074"  target="_blank">台灣 Ingress 綠軍 G+ 討論區 </a>
 			及 <a href="https://plus.google.com/communities/110019129465742753783" target="_blank">台灣藍軍 Ingress G+ 討論區</a>，
 			但討論區資料難以搜尋、查詢、整理跟閱讀，在討論時也容易發生糾紛。
 		</p>
@@ -20,6 +20,10 @@
 		</p>
 		<hr />
 		<p> 我們的願景在於提供 Ingress 最新的訊息、紀錄台灣  Ingress 歷史的軌跡並且提供最友善親切的教學。 </p>
+
+		<hr />
+
+		注意：本站並非 Ingress 官方站台，而為 Ingress Fan Site
 
     </div>
   </div>

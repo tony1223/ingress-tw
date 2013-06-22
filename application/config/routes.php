@@ -44,7 +44,6 @@ $route["invite"] = "site/invite";
 $route["gettingstart"] = "site/gettingstart";
 $route["links"] = "site/links";
 $route["about"] = "site/about";
-$route["story"] = "site/story";
 $route["history"] = "site/history";
 
 
