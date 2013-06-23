@@ -19,7 +19,7 @@
 		<p><?=nl2br(htmlspecialchars($info->Content))?></p>
 
 		<a class="btn" href="<?=site_url("status/fullview/".$info->KMLID)?>">全頁地圖模式瀏覽</a>
-		<div id="map-canvas" class="span12 gmap" style="height:500px" data-resource="<?=base_url("resources/status/".$info->Kml)?>"></div>
+		<div id="map-canvas" class="span12 gmap" style="height:500px" data-resource="http://files.tonyq.org/ingress/bound.kmz"></div>
 
 		<p>此處所有資料來自於 ingress/intel 並由 TonyQ 後製而成，資料所有權屬官方所有，統計結果若有需要另行引用請採用 CC-BY 授權（註明作者與來源網站即可。）。</p>
    </div>
@@ -29,6 +29,7 @@
 
 <?php function js_section(){ ?>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="<?=base_url("js/test.js")?>"></script>
 <script type="text/javascript">
 
   var map;
@@ -40,16 +41,27 @@
     };
     map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
-    var georssLayer = new google.maps.KmlLayer($("#map-canvas").data("resource"));
-	georssLayer.setMap(map);
-	google.maps.event.addListener(georssLayer, "metadata_changed", function() {
-		setTimeout(function(){
-			map.setCenter(new google.maps.LatLng(25.046733,121.542613));
-			map.setZoom(15);
-			google.maps.event.trigger(map, 'resize');
-		},500);
-		google.maps.event.trigger(map, 'resize');
-	});
+
+    var bermudaTriangle ;
+
+    for(var i = 0 ; i < window.points.length ;++i){
+        var point = window.points[i];
+		var geo_points = [];
+		for(var j = 0 ; j < point.paths.length;++j){
+			geo_points.push(new google.maps.LatLng(point.paths[j][0],point.paths[j][1]));
+		}
+
+    	bermudaTriangle= new google.maps.Polygon({
+	    	paths: geo_points,
+	    	strokeColor: point.tw ? "#FF0000" :"#00FFFF",
+	    	strokeOpacity: 0.8,
+	    	strokeWeight: 2,
+	    	fillColor: point.tw ? "#FF0000" :"#00FFFF",
+	    	fillOpacity: 0.35
+	  	});
+    	bermudaTriangle.setMap(map);
+    }
+
 	setTimeout(function(){
 		google.maps.event.trigger(map, 'resize');
 	},1000);

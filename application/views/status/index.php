@@ -8,7 +8,7 @@
 		</div>
 		<div class="alert alert-warning">由於伺服器資料蒐集的極限，有些資料可能仍有些不完整，請大家閱讀時僅供參考，我們會再盡力調整擷取方式。</div>
 
-		<h1>近期戰情報導(每日更新)</h1>
+		<h1>近期戰情報導(不定期紀錄，每日更新)</h1>
 		<table class="table table-bordered">
 			<tr>
 				<td>紀錄日期、時間</td>
