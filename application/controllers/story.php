@@ -12,6 +12,24 @@ class Story extends MY_Controller {
 		);
 	}
 
+	public function enlightened(){
+		$this->_layout("layout",'story/enlightened',
+			Array(
+				"pageTitle" => "劇情簡介 - 啟蒙軍(Enlightened)- Ingress.tw",
+				"selector" => "story"
+			)
+		);
+	}
+
+	public function resistance(){
+		$this->_layout("layout",'story/resistance',
+			Array(
+				"pageTitle" => "劇情簡介 - 反抗軍(Resistance)- Ingress.tw",
+				"selector" => "story"
+			)
+		);
+	}
+
 }
 
 /* End of file welcome.php */

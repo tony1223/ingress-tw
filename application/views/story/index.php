@@ -39,8 +39,8 @@
 		</div>
 
 		<div class="story-brand clearfix">
-			<img class="logo logo-e span6" src="<?=base_url("/img/enlightened_logo.png")?>" />
-			<img class="logo logo-r span6" src="<?=base_url("/img/resistance_logo.png")?>" />
+			<a href="<?=site_url("story/enlightened")?>" class="logo logo-e"><img class="logo logo-e span6" src="<?=base_url("/img/enlightened_logo.png")?>" /></a>
+			<a href="<?=site_url("story/resistance")?>" class="logo logo-r"><img class="span6" src="<?=base_url("/img/resistance_logo.png")?>" /></a>
 			<img class="background  span12" src="<?=base_url("/img/index_bland.jpg")?>" />
 		</div>
 
