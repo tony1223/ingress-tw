@@ -19,9 +19,9 @@ class  MY_Controller  extends  CI_Controller  {
 
 	/**
 	 *
-	 * @var KMLModel
+	 * @var HistoryModel
 	 */
-	var $KMLModel; //KMLModel
+	var $HistoryModel; //HistoryModel
 
 	public function __construct(){
 		parent::__construct();

@@ -4,7 +4,7 @@ class Status extends MY_Controller {
 
 	public function index()
 	{
-		$infos = array_reverse($this->KMLModel->find_all()); //just in case for array_reverse
+		$infos = $this->HistoryModel->find_all(); //just in case for array_reverse
 		$this->_layout("layout",'status/index',
 			Array(
 				"pageTitle" => "戰情概要 - Ingress.tw",
@@ -14,15 +14,19 @@ class Status extends MY_Controller {
 		);
 	}
 
+	public function renew(){
+		$this->HistoryModel->insert_db();
+	}
+
 	public function view($index){
-		$info = $this->KMLModel->find_by_id($index);
+		$info = $this->HistoryModel->find_by_id($index);
 		if(empty($info)){
 			return show_404();
 		}
 
 		$this->_layout("layout",'status/view',
 			Array(
-				"pageTitle" => "戰情概要 ".$info->Time ." - Ingress.tw",
+				"pageTitle" => "戰情概要 "._date_format($info->CreateDate) ." - Ingress.tw",
 				"selector" => "status",
 				"info" => $info
 			)
@@ -30,13 +34,13 @@ class Status extends MY_Controller {
 	}
 
 	public function fullview($index){
-		$info = $this->KMLModel->find_by_id($index);
+		$info = $this->HistoryModel->find_by_id($index);
 		if(empty($info)){
 			return show_404();
 		}
 		$this->load->view('status/fullview',
 			Array(
-				"pageTitle" => "戰情概要 ".$info->Time." - Ingress.tw",
+				"pageTitle" => "戰情概要 ". _date_format($info->CreateDate)." - Ingress.tw",
 				"selector" => "status",
 				"info" => $info
 			)

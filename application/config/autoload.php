@@ -110,7 +110,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array("KMLModel");
+$autoload['model'] = array("HistoryModel");
 
 
 /* End of file autoload.php */

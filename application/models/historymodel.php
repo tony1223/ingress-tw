@@ -1,19 +1,51 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class KMLModel extends CI_Model {
+/**
+ * @property CI_DB_active_record $db
+ * @author TonyQ
+ *
+ */
+class HistoryModel extends MY_Model {
+	public $_table = 'history';
+	public $primary_key = 'HistoryID';
+
 	function __construct()
 	{
 		parent::__construct();
 	}
 
 	function find_by_id($id){
-		$all = $this->find_all();
-		if(isset($all[$id])){
-			return $all[$id];
-		}
-		return null;
+		return $this->get($id);
 	}
 
 	function find_all(){
+		$this->db->select("*");
+		$this->db->order_by("CreateDate","desc");
+		$query = $this->db->get($this->_table);
+
+		return $query->result();
+	}
+
+	function insert_db(){
+
+		$olds = $this->find_all_old();
+
+		foreach($olds as $kml){
+			$this->db->insert(
+				$this->_table,
+				Array(
+					"Type" => $kml->Title,
+					"Title" => $kml->Title,
+					"CreateDAte" => $kml->Time,
+					"KML" => "http://ingress.tw/resources/status/".$kml->Kml,
+					"Description" => $kml->Content
+				)
+			);
+		}
+
+
+	}
+
+	function find_all_old(){
 		return  Array(
 /*
 			1=>
