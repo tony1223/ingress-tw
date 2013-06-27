@@ -20,8 +20,8 @@
           </li>
 
 	<?php if(0){?>
-	      <li class="<?=$selector=="gettingstart" ? "active":""?>">
-            <a href="<?=site_url("/gettingStart")?>">新手教學</a>
+	      <li class="<?=$selector=="guide" ? "active":""?>">
+            <a href="<?=site_url("/guide")?>">新手教學</a>
           </li>
           <li class="<?=$selector=="story" ? "active":""?>">
             <a href="<?=site_url("/story")?>">故事劇情</a>
