@@ -23,7 +23,7 @@
 			<p>
 				有一天網路上出現一個神秘網站 <a href="http://www.nianticproject.com/" target="_blank">Niantic Project</a> ，
 				從這一刻開始，網站上便揭露許多我們所見世界中，所不為人知的秘密。
-				底下揭露我們從 nianticproject 網站揭露的第一手消息，記住，<b>這裡沒有事實，一切只有未知與猜測。</b></p>
+				底下揭露我們從 nianticproject 網站轉載的第一手消息，記住，<b>這裡沒有事實，一切只有未知與猜測。</b></p>
 			<hr />
 			<ul>
 				<li>
@@ -32,8 +32,9 @@
 
 					<p><a href="http://www.youtube.com/watch?v=ZzpuWpy28pA" target="_blank">[Video] Crazy Tycho at Comic-Con 2012 Buck Rogers Panel</a></p>
 					<p> Tycho 在 2012 漫畫論壇上宣稱：I see portals! (我看見 portal 了。) ，接著他就被神秘女子請出場了。
-						在場只有他看見所謂的 portal ，許多人對此不以為意，
-						但許多動漫界的人都認為 Tycho 是一個在動漫界具有傳奇地位的大師，
+						在場只有他看見所謂的 portal ，許多人對此不以為意。
+
+						但經過訪問許多動漫界的人都認為 Tycho 是一個在動漫界具有傳奇地位的大師，
 						而由這樣的人說出來的話，似乎不應該是空穴來風。
 					</p>
 					<p>沒有人知道為什麼只有 Tycho 看得見 portal ，也沒有人知道他去了哪裡，一切都是一個謎。</p>
@@ -43,7 +44,7 @@
 					<p><a href="http://www.youtube.com/watch?v=pvGFeuiWkow" target="_blank">[Video] Niantic Investigation 2 - Comic-Con Part 2 </a></p>
 					<p> 我們正在被監視著嗎？(Are we been watched ?) <b>What's the niantic project?</b> </p>
 					<p> Who's the National Intelligence Agency (NIA)? </p>
-					<p> Tycho 在 Comic-Con 上神秘的發言引起了部份人的注意，於是有人發現了 Tycho 的 tumblr :
+					<p> Tycho 在 Comic-Con 上神秘的發言引起部份人的注意，於是有人發現  Tycho 的 tumblr :
 						<a href="http://tychosees.tumblr.com/" target="_blank">Tycho Sees </a>，
 						並發現其中有些 Post 藏有錯位謎題，解開後出現一段神秘留言 "This led to a disturbing period." (這將帶來一個令人不安的時期)。
 						自從 Tycho 在 Comic-Con 上出現並且被帶走後，我們失去了所有的線索，目前唯一的線索都指向一個字： "Nantic"。
@@ -52,14 +53,14 @@
 				<li>
 					<h3>Niantic Investigation 3 : Abductions (By P.A. Chapeau)  <br /> Nitanic 調查報告 3: 綁架事件 </h3>
 					<p><a href="http://www.youtube.com/watch?v=vwvwY0zDzE0" target="_blank">[Video] Niantic Investigation 3 - Abductions</a></p>
+					<p><a href="http://www.youtube.com/watch?v=BUA3SuH2kR4" target="_blank">[Video] Buyers beware! Glitchy phone via online auction!</a></p>
 					<p>
-						<a href="http://www.youtube.com/watch?v=BUA3SuH2kR4" target="_blank">[Video] Buyers beware! Glitchy phone via online auction!</a>
-						有一個名叫 Ben Jackland 的使用者在 Youtube 上發表了他從 ebay 上競標來的一隻故障的智慧型手機，並警告買家要小心不要買到同樣的東西。
-						「這是一隻奇怪的手機，所有裡面的檔案我無法寫入。我持續接到找之前主人的電話，甚至連我把 sim 卡拿出來都沒有用。
-						   當我走在街道上時，他就是運作失常。這很難解釋。」
+						有一個名叫 Ben Jackland 的使用者在網路上上發表了他從 ebay 上競標來的一隻故障的智慧型手機，並警告買家要小心不要買到同樣的東西。
+						「這是一隻奇怪的手機，所有裡面的檔案都無法覆蓋或寫入，我持續接到找之前主人的電話，甚至連我把 sim 卡拿出來都沒有用。
+						   當我走在街道上時，他就是運作失常。這失常很難解釋。」
 					</p>
 					<p>
-						「現在我們在街道上，手機看起來很正常。但是當我接近一個雕像時，看，(他呈現這樣的畫面)」
+						「現在我們在街道上，手機看起來很正常。但是當我接近一個雕像時，看，(它呈現這樣的畫面)」
 						<img src="<?=base_url("img/story/story_1.png")?>" alt="劇情介紹- Ben Jackland on the street with Ingress phone." />
 						<img src="<?=base_url("img/story/story_2.png")?>" alt="劇情介紹- Ben Jackland on the street with Ingress phone." />
 						<br />
@@ -69,7 +70,7 @@
 						<a href="http://www.youtube.com/watch?v=mL5enhwJAjk" target="_blank">[Video]It's a prototype? Type N!</a>
 						接著 Ben Jackland 決定拆解手機看看這到底是怎麼回事。
 						根據他拆解完的結果，他認為這是一隻原型手機，他找到了一個上面寫有 N 的晶片並且研究後發現這指向 Nitanic ，
-						這應該是一隻屬於 Nitanic 計畫(即使不知道這到底是什麼計畫) 的原型機，就在他發現 Nitanic 後，他又接到神秘電話。
+						這應該是一隻屬於 Nitanic 計畫(即使我們仍不知道這到底是什麼計畫) 的原型機，就在他發現 Nitanic 後，神秘電話仍持續響個不停。
 						<br />
 						<img src="<?=base_url("img/story/story_3.png")?>" alt="劇情介紹- Ben Jackland on the street with Ingress phone." />
 						<img src="<?=base_url("img/story/story_4.png")?>" alt="劇情介紹- Ben Jackland on the street with Ingress phone." />
@@ -115,12 +116,6 @@
 
 			<p>我知道這很難讓人相信，但無論你信或不信，這一切已經發生。<strong>It's time to move.</strong></p>
 			<hr />
-		</div>
-
-		<div class="descritpion">
-			<p> 啟蒙軍 </p>
-
-			<p></p>
 		</div>
 
 		<div>
