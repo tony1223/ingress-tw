@@ -27,20 +27,20 @@ class HistoryModel extends MY_Model {
 
 	function insert_db(){
 
-		$olds = $this->find_all_old();
-
-		foreach($olds as $kml){
-			$this->db->insert(
-				$this->_table,
-				Array(
-					"Type" => $kml->Title,
-					"Title" => $kml->Title,
-					"CreateDAte" => $kml->Time,
-					"KML" => "http://ingress.tw/resources/status/".$kml->Kml,
-					"Description" => $kml->Content
-				)
-			);
-		}
+//		$olds = $this->find_all_old();
+//
+//		foreach($olds as $kml){
+//			$this->db->insert(
+//				$this->_table,
+//				Array(
+//					"Type" => $kml->Title,
+//					"Title" => $kml->Title,
+//					"CreateDAte" => $kml->Time,
+//					"KML" => "http://ingress.tw/resources/status/".$kml->Kml,
+//					"Description" => $kml->Content
+//				)
+//			);
+//		}
 
 
 	}
