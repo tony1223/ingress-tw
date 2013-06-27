@@ -47,7 +47,7 @@
 					<p> Tycho 在 Comic-Con 上神秘的發言引起部份人的注意，於是有人發現  Tycho 的 tumblr :
 						<a href="http://tychosees.tumblr.com/" target="_blank">Tycho Sees </a>，
 						並發現其中有些 Post 藏有錯位謎題，解開後出現一段神秘留言 "This led to a disturbing period." (這將帶來一個令人不安的時期)。
-						自從 Tycho 在 Comic-Con 上出現並且被帶走後，我們失去了所有的線索，目前唯一的線索都指向一個字： "Nantic"。
+						自從 Tycho 在 Comic-Con 上出現並且被帶走後，我們失去了所有的線索，目前唯一的線索都指向一個字： "Niantic"。
 					</p>
 				</li>
 				<li>
@@ -55,7 +55,7 @@
 					<p><a href="http://www.youtube.com/watch?v=vwvwY0zDzE0" target="_blank">[Video] Niantic Investigation 3 - Abductions</a></p>
 					<p><a href="http://www.youtube.com/watch?v=BUA3SuH2kR4" target="_blank">[Video] Buyers beware! Glitchy phone via online auction!</a></p>
 					<p>
-						有一個名叫 Ben Jackland 的使用者在網路上上發表了他從 ebay 上競標來的一隻故障的智慧型手機，並警告買家要小心不要買到同樣的東西。
+						有一個名叫 Ben Jackland 的使用者在網路上發表了他從 ebay 上競標來的一隻故障的智慧型手機，並警告買家要小心不要買到同樣的東西。
 						「這是一隻奇怪的手機，所有裡面的檔案都無法覆蓋或寫入，我持續接到找之前主人的電話，甚至連我把 sim 卡拿出來都沒有用。
 						   當我走在街道上時，他就是運作失常。這失常很難解釋。」
 					</p>
@@ -69,8 +69,8 @@
 					<p>
 						<a href="http://www.youtube.com/watch?v=mL5enhwJAjk" target="_blank">[Video]It's a prototype? Type N!</a>
 						接著 Ben Jackland 決定拆解手機看看這到底是怎麼回事。
-						根據他拆解完的結果，他認為這是一隻原型手機，他找到了一個上面寫有 N 的晶片並且研究後發現這指向 Nitanic ，
-						這應該是一隻屬於 Nitanic 計畫(即使我們仍不知道這到底是什麼計畫) 的原型機，就在他發現 Nitanic 後，神秘電話仍持續響個不停。
+						根據他拆解完的結果，他認為這是一隻原型手機，他找到了一個上面寫有 N 的晶片並且研究後發現這指向 Niantic ，
+						這應該是一隻屬於 Niantic 計畫(即使我們仍不知道這到底是什麼計畫) 的原型機，就在他發現 Niantic 後，神秘電話仍持續響個不停。
 						<br />
 						<img src="<?=base_url("img/story/story_3.png")?>" alt="劇情介紹- Ben Jackland on the street with Ingress phone." />
 						<img src="<?=base_url("img/story/story_4.png")?>" alt="劇情介紹- Ben Jackland on the street with Ingress phone." />
