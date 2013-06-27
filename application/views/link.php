@@ -12,7 +12,7 @@
 			<li><a href="https://plus.google.com/+Ingress" target="_blank">Ingress Google Plus 官方 G+ 論壇</a></li>
 			<li><a href="https://support.google.com/ingress/?contact=1#contact=1" target="_blank">Contact Ingress 聯繫官方</a></li>
 			<li><a href="http://www.ingress.com/report" target="_blank"> 遞交官方遊戲活動紀錄 </a></li>
-			<li><a href="http://www.ingress.com/intel" target="_blank"> 遊戲 Portal/ 戰況一覽 </a></li>
+			<li><a href="http://www.ingress.com/intel" target="_blank"> 遊戲 Portal 戰況一覽 </a></li>
 			<li><a href="http://www.youtube.com/user/ingress">官方 youtube 影片專區</a>
 		</ul>
 
