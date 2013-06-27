@@ -35,7 +35,7 @@ class HistoryModel extends MY_Model {
 //				Array(
 //					"Type" => $kml->Title,
 //					"Title" => $kml->Title,
-//					"CreateDAte" => $kml->Time,
+//					"CreateDate" => $kml->Time,
 //					"KML" => "http://ingress.tw/resources/status/".$kml->Kml,
 //					"Description" => $kml->Content
 //				)
