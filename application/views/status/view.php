@@ -16,7 +16,7 @@
 		<div class="alert alert-warning">本功能尚屬實驗版，由於伺服器資料蒐集的極限，有些資料可能仍有些不完整，請大家閱讀時僅供參考。</div>
 
 		<h1><?=htmlspecialchars(_date_format($info->CreateDate). " " .$info->Title)?></h1>
-		<p><?=nl2br(htmlspecialchars($info->Description))?></p>
+		<p><?=($info->Description)?></p>
 
 		<a class="btn" href="<?=site_url("status/fullview/".$info->HistoryID)?>">全頁地圖模式瀏覽</a>
 		<div id="map-canvas" class="span12 gmap" style="height:500px" data-resource="<?=htmlspecialchars($info->KML)?>"></div>

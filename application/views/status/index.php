@@ -20,7 +20,7 @@
 				<td><?=_date_format($info->CreateDate)?> </td>
 				<td> <a href="<?=site_url("status/view/".$info->HistoryID)?>"><?=htmlspecialchars($info->Title)?></a> (註：屬實驗版，可能有許多 portal 缺漏)
 					<hr />
-					<?=nl2br(htmlspecialchars($info->Description))?>
+					<?=$info->Description?>
 				</td>
 			</tr>
 			<?php }?>
