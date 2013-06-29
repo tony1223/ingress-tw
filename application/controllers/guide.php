@@ -7,8 +7,7 @@ class Guide extends MY_Controller {
 		$this->_layout("layout",'guide/index',
 			Array(
 				"pageTitle" => "新手教學 - Ingress.tw",
-				"selector" => "guide",
-				"infos" => $infos
+				"selector" => "guide"
 			)
 		);
 	}
