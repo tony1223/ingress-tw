@@ -11,8 +11,8 @@
 		<h1>近期戰情報導(不定期紀錄，每日更新)</h1>
 		<table class="table table-bordered">
 			<tr>
-				<td>紀錄日期、時間</td>
-				<td>戰情地圖</td>
+				<td class="spab3">紀錄日期、時間</td>
+				<td class="spab9">戰情地圖</td>
 			</tr>
 
 			<?php foreach($infos as $info){?>
