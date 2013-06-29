@@ -189,6 +189,13 @@
 						</td>
 						<td> &nbsp;</td>
 					</tr>
+					<tr>
+						<td> XMP </td>
+						<td>
+							<p> 遊戲裡面用來攻擊的道具，會消耗 XM 並對周遭 Res 產生攻擊效果。</p>
+						</td>
+						<td> &nbsp;</td>
+					</tr>
 				</table>
 
 				<h2>基礎遊戲畫面說明</h2>
