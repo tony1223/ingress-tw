@@ -21,7 +21,7 @@
 
 		<h2>* 什麼是邀請碼？</h2>
 		<p>
-			Ingress 目前仍處於 Beta test （封閉測試）階段 ，玩家從 Google play 下載 Ingress 後，將需要輸入啟動碼才能啟動遊戲並建立帳號。
+			Ingress 目前仍處於 Beta test （封閉測試）階段 ，玩家從 <a href="https://play.google.com/store/apps/details?id=com.nianticproject.ingress&hl=zh_TW" target="_blank">Google play 下載 Ingress </a>後，將需要輸入啟動碼才能啟動遊戲並建立帳號。
 		</p>
 		<hr />
 		<h2>* 那如何取得邀請碼？</h2>

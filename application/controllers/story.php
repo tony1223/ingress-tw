@@ -6,7 +6,7 @@ class Story extends MY_Controller {
 	{
 		$this->_layout("layout",'story/index',
 			Array(
-				"pageTitle" => "劇情簡介 - 概要 - Ingress.tw",
+				"pageTitle" => "劇情簡介 - 概要",
 				"selector" => "story"
 			)
 		);
@@ -15,7 +15,7 @@ class Story extends MY_Controller {
 	public function enlightened(){
 		$this->_layout("layout",'story/enlightened',
 			Array(
-				"pageTitle" => "劇情簡介 - 啟蒙軍(Enlightened)- Ingress.tw",
+				"pageTitle" => "劇情簡介 - 啟蒙軍(Enlightened)",
 				"selector" => "story"
 			)
 		);
@@ -24,7 +24,7 @@ class Story extends MY_Controller {
 	public function resistance(){
 		$this->_layout("layout",'story/resistance',
 			Array(
-				"pageTitle" => "劇情簡介 - 反抗軍(Resistance)- Ingress.tw",
+				"pageTitle" => "劇情簡介 - 反抗軍(Resistance)",
 				"selector" => "story"
 			)
 		);

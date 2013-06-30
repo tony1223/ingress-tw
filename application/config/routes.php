@@ -45,6 +45,16 @@ $route["links"] = "site/links";
 $route["about"] = "site/about";
 $route["history"] = "site/history";
 
+$route["guide/game-control"] = "guide/game_control";
+$route["guide/level-1"] = "guide/level_1";
+$route["guide/level-2"] = "guide/level_2";
+$route["guide/level-3"] = "guide/level_3";
+$route["guide/level-4"] = "guide/level_4";
+$route["guide/level-5"] = "guide/level_5";
+$route["guide/level-6"] = "guide/level_6";
+$route["guide/level-7"] = "guide/level_7";
+$route["guide/level-8"] = "guide/level_8";
+
 
 
 /* End of file routes.php */

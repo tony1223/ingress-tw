@@ -1,35 +1,4 @@
 
-<style>
-
-	.page-story-index .story-brand{
-		position:relative;
-	}
-
-	.page-story-index .story-brand .background{
-		z-index:1;
-	}
-
-	.page-story-index .story-brand .logo{
-		top:10%;
-		position:absolute;
-		z-index:2;
-		opacity:0.8;
-	}
-
-	.page-story-index .story-brand .logo-e{
-		left:-10%;
-	}
-	.page-story-index .story-brand .logo-r{
-		right:-10%;
-	}
-	.page-story-index .story-brand .logo-e:hover{
-		opacity:1;
-	}
-	.page-story-index .story-brand .logo-r:hover{
-		opacity:1;
-	}
-
-</style>
 <div class="container page-story-index">
 
   <div class="row">

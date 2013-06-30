@@ -17,6 +17,15 @@ class HistoryModel extends MY_Model {
 		return $this->get($id);
 	}
 
+	function find_last(){
+		$this->db->select("*");
+		$this->db->order_by("CreateDate","desc");
+		$this->db->limit(1,0);
+		$query = $this->db->get($this->_table);
+
+		return $query->row();
+	}
+
 	function find_all(){
 		$this->db->select("*");
 		$this->db->order_by("CreateDate","desc");

@@ -6,17 +6,8 @@ class Site extends MY_Controller {
 	{
 		$this->_layout("layout",'invite',
 		Array(
-				"pageTitle" => "如何取得邀請碼 - Ingress.tw",
+				"pageTitle" => "如何取得邀請碼",
 				"selector" => "invite"
-				)
-				);
-	}
-	public function gettingstart()
-	{
-		$this->_layout("layout",'under_construction',
-		Array(
-				"pageTitle" => "新手教學  - Ingress.tw",
-				"selector" => "gettingstart"
 				)
 				);
 	}
@@ -25,7 +16,7 @@ class Site extends MY_Controller {
 	{
 		$this->_layout("layout",'link',
 		Array(
-				"pageTitle" => "相關連結 - Ingress.tw",
+				"pageTitle" => "相關連結",
 				"selector" => "links"
 				)
 		);
@@ -43,7 +34,7 @@ class Site extends MY_Controller {
 	public function history(){
 		$this->_layout("layout",'history',
 		Array(
-				"pageTitle" => "台灣大事記  - Ingress.tw",
+				"pageTitle" => "台灣大事記 ",
 				"selector" => "history"
 				)
 		);

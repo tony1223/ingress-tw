@@ -1,11 +1,11 @@
 /* Global css
 ------------------------------------------ */
-.jf-loading * { 
+.jf-loading * {
 	opacity: 0;
 	visibility: hidden;
 }
 
-.jf-inactive * { 
+.jf-inactive * {
 	opacity:1;
 	visibility: visible;
 }
@@ -199,5 +199,36 @@ html[xmlns] .clearfix {
 	.page-index .ribbon{
 		display:none;
 	}
-/* Styles */
+}
+
+
+/* page-story-index
+-------------------------------------------*/
+
+.page-story-index .story-brand{
+	position:relative;
+}
+
+.page-story-index .story-brand .background{
+	z-index:1;
+}
+
+.page-story-index .story-brand .logo{
+	top:10%;
+	position:absolute;
+	z-index:2;
+	opacity:0.8;
+}
+
+.page-story-index .story-brand .logo-e{
+	left:-10%;
+}
+.page-story-index .story-brand .logo-r{
+	right:-10%;
+}
+.page-story-index .story-brand .logo-e:hover{
+	opacity:1;
+}
+.page-story-index .story-brand .logo-r:hover{
+	opacity:1;
 }

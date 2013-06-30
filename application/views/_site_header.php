@@ -4,7 +4,11 @@
 	<meta charset="utf-8">
 	<title><?php
 		if(isset($pageTitle)){
-			echo $pageTitle ; //透過變數設定
+			if(empty($selector) || $selector != "home"){
+				echo $pageTitle."- 台灣非官方 Ingress 教學與資料收集中心(Ingress.tw)" ; //透過變數設定
+			}else{
+				echo $pageTitle; //透過變數設定
+			}
 		} else{
 			echo "Ingress TW Info" ; //預設標題
 		}
