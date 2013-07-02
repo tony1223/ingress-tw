@@ -28,26 +28,26 @@
 				<ul>
 					<li>
 						<p>首先進入地圖畫面</p>
-						<p class="clearfix"><img class="span3" src="<?=base_url("img/guide/guide_create_Portal_01.png")?>" alt="Portal 建立教學 - 地圖畫面"></p>
+						<p class="clearfix"><img class="span3" src="<?=base_url("img/guide/guide_create_portal_01.png")?>" alt="Portal 建立教學 - 地圖畫面"></p>
 					</li>
 					<li>
 						<p>用一隻手指長按要建立 Portal 的地方出現選單，並移動至右方  [New Portal] 選項後放開 </p>
-						<p class="clearfix"><img class="span3" src="<?=base_url("img/guide/guide_create_Portal_02.png")?>" alt="Portal 建立教學 - 長按時出現選單"></p>
+						<p class="clearfix"><img class="span3" src="<?=base_url("img/guide/guide_create_portal_02.png")?>" alt="Portal 建立教學 - 長按時出現選單"></p>
 					</li>
 					<li>
 						<p>進入我們熟悉的拍照畫面，並對準我們希望建立的 Portal 。（此一畫面可能會因為您使用的預設照相 app /手機不同而有所差異）</p>
-						<p class="clearfix"><img class="span3" src="<?=base_url("img/guide/guide_create_Portal_03.png")?>" alt="Portal 建立教學 - 拍照畫面"></p>
+						<p class="clearfix"><img class="span3" src="<?=base_url("img/guide/guide_create_portal_03.png")?>" alt="Portal 建立教學 - 拍照畫面"></p>
 					</li>
 					<li>
 						<p>拍照後選擇確認或重拍</p>
-						<p class="clearfix"><img class="span3" src="<?=base_url("img/guide/guide_create_Portal_04.png")?>" alt="Portal 建立教學 - 拍照確認畫面"></p>
+						<p class="clearfix"><img class="span3" src="<?=base_url("img/guide/guide_create_portal_04.png")?>" alt="Portal 建立教學 - 拍照確認畫面"></p>
 					</li>
 					<li>
 						<p>繼續填寫 Portal 資料，定位跟標題建議盡量調整正確，但定位最後結果仍可能跟您設定的定位有落差，
 							標題在不知道要寫什麼情況下，官方建議可自由發揮創意，描述為非必填欄位，可用中文或英文填寫皆可。
 							唯萬一填寫錯誤日後要改相當麻煩跟耗時許久，建議謹慎填寫。
 						</p>
-						<p class="clearfix"><img class="span3" src="<?=base_url("img/guide/guide_create_Portal_05.png")?>" alt="Portal 建立教學 - 資料填寫畫面"></p>
+						<p class="clearfix"><img class="span3" src="<?=base_url("img/guide/guide_create_portal_05.png")?>" alt="Portal 建立教學 - 資料填寫畫面"></p>
 					</li>
 					<li>
 						<p>
@@ -55,8 +55,8 @@
 						一旦審查有了結果您將會收到 Portal Rejected 或 Portal Live 的訊息。
 						</p>
 						<p >
-						<img class="span4" src="<?=base_url("img/guide/guide_create_Portal_06.png")?>" alt="Portal 建立教學 - 官方通知信畫面1"></p>
-						<img class="span4" src="<?=base_url("img/guide/guide_create_Portal_07.png")?>" alt="Portal 建立教學 - 官方通知信畫面2"></p>
+						<img class="span4" src="<?=base_url("img/guide/guide_create_portal_06.png")?>" alt="Portal 建立教學 - 官方通知信畫面1"></p>
+						<img class="span4" src="<?=base_url("img/guide/guide_create_portal_07.png")?>" alt="Portal 建立教學 - 官方通知信畫面2"></p>
 					</li>
 				</ul>
 

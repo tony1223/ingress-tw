@@ -105,7 +105,7 @@
 						<p>
 							如果您的附近 Portal 不多，我們非常建議遞交新的 Portal 申請，建立新 Portal 既可增加自己的遊戲性，也讓其他玩家有更多遊戲空間，一舉多得。</p>
 						<p> 申請期間從一週到兩個月不等，視 google 官方處理時間而定，
-							關於如何提交新 Portal 的細節，請參考 <a href="<?=site_url("/guide/create_Portal")?>" target="_blank">建立 Portal 教學</a>。</p>
+							關於如何提交新 Portal 的細節，請參考 <a href="<?=site_url("/guide/create_Portal")?>">建立 Portal 教學</a>。</p>
 					</li>
 				</ul>
 
