@@ -38,7 +38,7 @@ class Guide extends MY_Controller {
 	{
 		$this->_layout("layout",'guide/create_portal',
 			Array(
-				"pageTitle" => "新手教學 - 如何建立 portal ",
+				"pageTitle" => "新手教學 - 如何建立 Portal ",
 				"selector" => "guide",
 				"selector_2" => "create_portal",
 			)
