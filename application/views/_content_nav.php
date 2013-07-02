@@ -10,6 +10,7 @@
       <a class="brand" href="<?=site_url("/")?>">
       	<img class="logo" src="<?=base_url("img/Ingress-flat-circle-256.png")?>" alt="Ingree Logo" style="margin-right:20px;" />Ingress.tw
       </a>
+      <div class="fb-like-container"><div class="fb-like" data-href="<?=site_url("/")?>" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false"></div></div>
       <div class="nav-collapse collapse">
         <ul class="nav">
           <li class="<?=$selector=="home" ? "active":""?>">
@@ -41,6 +42,15 @@
           </li>
         </ul>
       </div>
+      <style>
+.fb-like-container{
+      height: 25px;
+width: 150px;
+float: right;
+margin-right: 10px;
+margin-top: 16px;
+}
+</style>
     </div>
   </div>
 </div>
