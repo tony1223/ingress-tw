@@ -69,7 +69,7 @@
 						<td> &nbsp;</td>
 					</tr>
 					<tr>
-						<td> 綠軍(啟蒙軍、Resistance) </td>
+						<td> 綠軍(啟蒙軍、Enlightened) </td>
 						<td> 遊戲裡的兩大陣營之一，玩家在進入遊戲時必須選擇陣營，更多詳情請參考劇情介紹。 </td>
 						<td> &nbsp;</td>
 					</tr>
@@ -118,7 +118,9 @@
 							<p>
 								中譯是控制域，常簡稱為 cf / field 。
 								當把三個 Portal 進行 link 並構成三角形時，區域會變成實心背景，
-								每建立一個 field 獲得 1513 AP ，並視 Field 大小取得不同 MU。
+								每建立一個 field 獲得 1250 AP ，通常伴隨著建立連線的 link 一起獲得 1563 AP，
+								並視 Field 大小取得不同 MU。
+
 								由於 AP 一次的取得量是遊戲中最多的，新手非常建議以 CF 為目標。
 							</p>
 							<small>當 Portal res 能量過低時，link 會損毀並會一致導致 CF 消失。</small>
