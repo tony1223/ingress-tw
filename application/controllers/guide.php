@@ -17,6 +17,7 @@ class Guide extends MY_Controller {
 		$this->_layout("layout",'guide/game_control',
 			Array(
 				"pageTitle" => "新手教學",
+				"selector" => "guide",
 				"selector_2" => "game-control",
 			)
 		);
@@ -27,6 +28,7 @@ class Guide extends MY_Controller {
 		$this->_layout("layout",'guide/level_1',
 			Array(
 				"pageTitle" => "新手教學 - L1 (等級一)",
+				"selector" => "guide",
 				"selector_2" => "level-1",
 			)
 		);
@@ -37,6 +39,7 @@ class Guide extends MY_Controller {
 		$this->_layout("layout",'guide/create_portal',
 			Array(
 				"pageTitle" => "新手教學 - 如何建立 portal ",
+				"selector" => "guide",
 				"selector_2" => "create_portal",
 			)
 		);
