@@ -52,7 +52,7 @@
 									</p>
 									<p> Deploy 時會根據你與 portal 的距離置放 Res ，太近的 res 會讓敵軍很容易攻擊，
 										一般建議當 portal 剛好位於自己圓圈（勢力範圍）邊緣時，置放後防禦效果最好。</p>
-									<small>若您想選擇置放至 portal res 的等級，請改用 <b>Upgrade</b> 功能。</small>
+									<small>預設會置放最低等級，若您想自行選擇置放至 Portal 的 res 等級，請改用 <b>Upgrade</b> 功能。</small>
 								</li>
 								<li>
 									<p><b>Recharge</b><small>(充電)</small></p>
