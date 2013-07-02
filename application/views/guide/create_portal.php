@@ -3,7 +3,7 @@
   <div class="row">
     <div class="span12 ">
 		<div class="page-header">
-		  <h1>L1 新手教學 <small>歡迎來到 Ingress 世界！</small></h1>
+		  <h1>新手教學 <small>發掘身邊不為人知的神秘之處</small></h1>
 		</div>
 
 		<div class="row tabbable tabs-left">

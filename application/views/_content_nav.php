@@ -19,10 +19,10 @@
             <a href="<?=site_url("/invite")?>">如何取得邀請碼</a>
           </li>
 
-	<?php if(0){?>
 	      <li class="<?=$selector=="guide" ? "active":""?>">
             <a href="<?=site_url("/guide")?>">新手教學</a>
           </li>
+	<?php if(0){?>
           <li class="<?=$selector=="story" ? "active":""?>">
             <a href="<?=site_url("/story")?>">故事劇情</a>
           </li>
