@@ -28,7 +28,7 @@
 		<hr />
 	<small>註一：有關 Ingress Taiwan 討論區，有部份玩家認為此一站台因為是台灣早期唯一的討論區，
 			且雙方都有管理員，故應為 Ingress Taiwan 藍綠雙方討論區，
-			唯資料蒐集時我們認為此站立場更傾向於綠軍討論區，故以此為註記。</small>
+			唯資料蒐集時我們認為此站立場更傾向於綠軍討論區，故以此為註記。<a href="https://plus.google.com/102981892471645627241/posts/iYsKxPnGcKd" target="_blank">相關討論</a></small>
     </div>
   </div>
 </div>
