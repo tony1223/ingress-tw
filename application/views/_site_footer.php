@@ -1,6 +1,7 @@
 	<div class="footer">
       <div class="container" style="padding-bottom:20px;">
     	 <hr />
+    	 <p> 本站為人工維護站台，資訊謹供參考，若有疏失或您不認同之處，敬請見諒、包含。亦歡迎來信討論 tonylovejava@gmail.com </>
          <p> Power by TonyQ &amp; Puppy Chen , sponsored by Ingress Taiwan Resistance Group. This is a unofficial fan site of Ingress. </p>
       </div>
     </div>
