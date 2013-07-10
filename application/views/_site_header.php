@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="<?=base_url("/css/bootstrap.min.css")?>">
     <link REL="SHORTCUT ICON" HREF="<?=base_url("favicon.ico")?>">
     <link rel="stylesheet" href="<?=base_url("/css/bootstrap-responsive.min.css")?>">
-    <link rel="stylesheet" href="<?=base_url("/css/site.css")?>">
+    <link rel="stylesheet" href="<?=base_url("/css/site.css?css=".date("YmdH"))?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php if(function_exists("css_section")){
     	css_section();

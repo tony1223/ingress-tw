@@ -66,11 +66,7 @@ body {
     }
 
 	.fb-like-container{
-	    height: 25px;
-		width: 60px;
-		float: right;
-		margin-right: 10px;
-		margin-top: 16px;
+		display:none;
 	}
 }
 
