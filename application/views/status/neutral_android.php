@@ -11,7 +11,7 @@
   <div class="row">
     <div class="span12 ">
 		<div class="page-header">
-		  <h1>戰情概要 -  Android 空點地圖使用教學 <small>讓您可以從 android 一鍵瀏覽本地圖且最新版的方法</small></h1>
+		  <h1>戰情概要 -  Android 空點地圖使用教學 <small>從 android 一鍵瀏覽本地圖最新版的方法</small></h1>
 		</div>
 		<div class="alert alert-warning">本功能尚屬實驗版，由於伺服器資料蒐集的極限，有些資料可能仍有些不完整，請大家使用時僅供參考。</div>
 		<ul>
