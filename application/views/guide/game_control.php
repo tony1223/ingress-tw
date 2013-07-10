@@ -1,4 +1,3 @@
-
 <div class="container">
 
   <div class="row">
@@ -39,7 +38,8 @@
 										<b>Hack 每次需間隔 300 秒，連續 hack 四次後會進入 burn out 狀態，需等待四小時後才能再度 hack</b>。
 										(有些道具可以增加 hack 次數或縮短等待時間)</p>
 									<div class="alert alert-warning">
-										注意： Hack 敵軍 portal 取得道具、可能會使得敵軍部份不理性的玩家腦羞並獲得乞丐稱號。</div>
+										注意： Hack 敵軍 portal 取得道具、可能會使得敵軍部份不理性的玩家腦羞並獲得乞丐稱號，
+										建議忽略部份不理性玩家言論，如<a href="http://i.imgur.com/dAyzWgp.jpg" target="_blank">此範例</a>。</div>
 								</li>
 								<li>
 									<p><b> Deploy </b> <small>(建置 Res )</small></p>
