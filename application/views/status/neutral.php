@@ -22,28 +22,10 @@
 		</div>
 
 		<hr />
-		<h2> Android 使用教學 </h2><small>讓您可以從 android 一鍵瀏覽本地圖且最新版的方法</small>
-		<ul>
-			<li> 原理：將 <?=site_url("status/neutral/latest")?> 加到書籤，並新增到主螢幕</li>
-			<li> 以 Chrome For Android 為例（Android 建議大家使用這個瀏覽器，比內建的快很多。）</li>
-			<li>
-				首先先將您的手機開至本頁，長按此連結 <a href="<?=site_url("status/neutral/latest")?>">最新地圖連結</a> 並選擇複製網址。
-			</li>
-			<li>
-				接著點擊 "設定" 出現選單。
-			</li>
-			<li>
-				點擊此 icon 建立書籤，並移至 "地址" 項目
-			</li>
-			<li>貼上剛剛的網址，並修改標題為自己容易識別的標題(ex.空點地圖)，並儲存。 </li>
-			<li>
-				接著點擊 "書籤" ，此時應該會出現剛建好的書籤，<b>長按</b>該書籤並選擇 "新增至主螢幕"
-			</li>
-			<li>
-				接下來只要點擊該 icon 即可瀏覽最新地圖囉，若您有安裝 google map app ，
-				可以選擇在 google map 上瀏覽，效果更好。：）
-			</li>
-		</ul>
+
+		<a href="<?=site_url("status/neutral/android")?>"> <h2>不想開電腦嗎？看看讓您能從 Android 一鍵快速瀏覽本地圖最新版的教學</h2></a>
+
+
 		<hr />
 		<p>
 			此處所有資料來自於 ingress/intel 並由 TonyQ 後製而成，資料所有權屬官方所有，

@@ -48,7 +48,16 @@ class Status extends MY_Controller {
 			redirect("https://maps.google.com.tw/?q=http://ingress.tw/static/white/white_latest.kmz%3ft=".date("Ymd_Hi"));
 			return true;
 		}
+		if($type == "android"){
+			$this->_layout("layout",'status/neutral_android',
+				Array(
+					"pageTitle" => "最新空點地圖 - 全頁模式",
+					"selector" => "status"
+				)
+			);
 
+			return true;
+		}
 		$this->_layout("layout",'status/neutral',
 			Array(
 				"pageTitle" => "最新空點地圖",
