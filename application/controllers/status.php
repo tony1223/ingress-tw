@@ -33,6 +33,30 @@ class Status extends MY_Controller {
 		);
 	}
 
+	public function neutral($type = null){
+		if($type == "full"){
+			$this->load->view('status/neutral_full',
+				Array(
+					"pageTitle" => "最新空點地圖 - 全頁模式",
+					"selector" => "status"
+				)
+			);
+
+			return true;
+		}
+		if($type =="latest"){
+			redirect("https://maps.google.com.tw/?q=http://ingress.tw/static/white/white_latest.kmz%3ft=".date("Ymd_Hi"));
+			return true;
+		}
+
+		$this->_layout("layout",'status/neutral',
+			Array(
+				"pageTitle" => "最新空點地圖",
+				"selector" => "status"
+			)
+		);
+	}
+
 	public function view($index){
 		$info = $this->HistoryModel->find_by_id($index);
 		if(empty($info)){

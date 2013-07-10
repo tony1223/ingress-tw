@@ -43,6 +43,38 @@ body {
 	width:25px;
 }
 
+.fb-like-container{
+    height: 25px;
+	width: 60px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 16px;
+}
+
+
+@media (max-width: 480px) {
+    .nav-tabs > li {
+        float:none;
+    }
+    .nav-tabs{
+    	min-height: 0px !important;
+    	border-bottom:1px solid gray !important;
+    }
+
+    .tab-content{
+    	clear:both;
+    }
+
+	.fb-like-container{
+	    height: 25px;
+		width: 60px;
+		float: right;
+		margin-right: 10px;
+		margin-top: 16px;
+	}
+}
+
+
 /*Component css
 ---------------------------------------------- */
 
