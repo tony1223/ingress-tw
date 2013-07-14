@@ -19,7 +19,7 @@ class Status extends MY_Controller {
 	}
 
 	public function latest(){
-		$this->_layout("layout",'status/latest',
+		$this->load->view('status/latest',
 			Array(
 				"pageTitle" => "最新戰情概要",
 				"selector" => "status"
