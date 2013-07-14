@@ -19,16 +19,10 @@ class Status extends MY_Controller {
 	}
 
 	public function latest(){
-		$info = $this->HistoryModel->find_last();
-		if(empty($info)){
-			return show_404();
-		}
-
-		$this->_layout("layout",'status/view',
+		$this->_layout("layout",'status/latest',
 			Array(
-				"pageTitle" => "最新戰情概要 "._date_format($info->CreateDate) ."",
-				"selector" => "status",
-				"info" => $info
+				"pageTitle" => "最新戰情概要",
+				"selector" => "status"
 			)
 		);
 	}

@@ -43,6 +43,13 @@ body {
 	width:25px;
 }
 
+.navbar .dropdown-menu li{
+	border-bottom:1px dotted gray;
+}
+.dropdown-menu > li > a{
+	padding:10px 20px;
+}
+
 .fb-like-container{
     height: 25px;
 	width: 60px;
