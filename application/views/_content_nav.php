@@ -22,6 +22,7 @@
           	<li class="dropdown <?=$selector=="guide" ? "active":""?>">
           		<a href="#" class="dropdown-toggle" data-toggle="dropdown">新手教學 <b class="caret"></b></a>
 				<ul class="dropdown-menu">
+					<li ><a href="<?=site_url("guide/active_account")?>">啟動帳號教學</a></li>
 					<li ><a href="<?=site_url("guide/")?>">基本名詞介紹</a></li>
 					<li ><a href="<?=site_url("guide/game-control")?>">基礎介面與 portal 操作介紹</a></li>
 					<li ><a href="<?=site_url("guide/level-1")?>"> L1 新手攻略（初心者指南）</a></li>

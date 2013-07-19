@@ -16,9 +16,19 @@ class Guide extends MY_Controller {
 	{
 		$this->_layout("layout",'guide/game_control',
 			Array(
-				"pageTitle" => "新手教學",
+				"pageTitle" => "新手教學 - 遊戲基本介面介紹",
 				"selector" => "guide",
 				"selector_2" => "game-control",
+			)
+		);
+	}
+
+	public function active_account(){
+		$this->_layout("layout",'guide/active_account',
+			Array(
+				"pageTitle" => "新手教學 - 啟動帳號",
+				"selector" => "guide",
+				"selector_2" => "active_account",
 			)
 		);
 	}
