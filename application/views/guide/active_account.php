@@ -16,7 +16,7 @@
 				<h3>啟動帳號影片（由 蔡小樽 / IngressTaiwan 提供）</h3>
 				<p>
 					<iframe width="560" height="315" src="//www.youtube.com/embed/8OUy7cCzCxU?wmode=opaque＆rel=0;" frameborder="0" allowfullscreen></iframe>
-					<small> From <a href="http://www.skyhunter.com.tw/blog/" target="_blank">小春天工作坊</a></small>
+					<small> From <a href="http://www.skyhunter.com.tw/blog/" target="_blank">小春天工坊</a></small>
 				</p>
 
 				特別注意事項：
