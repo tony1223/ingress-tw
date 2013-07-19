@@ -27,7 +27,7 @@ class Status extends MY_Controller {
 		);
 	}
 
-	public function neutral($type = null){
+	public function _neutral($type = null){
 		if($type == "full"){
 			$this->load->view('status/neutral_full',
 				Array(

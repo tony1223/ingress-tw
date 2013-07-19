@@ -38,7 +38,7 @@
           	<li class="dropdown <?=$selector=="status" ? "active":""?>">
           		<a href="#" class="dropdown-toggle" data-toggle="dropdown">戰情概要 <b class="caret"></b></a>
 				<ul class="dropdown-menu">
-					<li><a href="<?=site_url("/status/neutral")?>">最新空點地圖<b style="color:red;">Hot!</b></a></li>
+<!-- 				<li><a href="<?=site_url("/status/neutral")?>">最新空點地圖<b style="color:red;">Hot!</b></a></li> -->
 					<li><a href="<?=site_url("/status/latest")?>">最新戰情地圖</a></li>
 					<li><a href="<?=site_url("/status")?>">戰情歷史</a></li>
 				</ul>
